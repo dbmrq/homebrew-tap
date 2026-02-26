@@ -4,7 +4,7 @@
 class Demoji < Formula
   desc "A fast CLI tool to remove or replace emoji characters from text files"
   homepage "https://github.com/dbmrq/demoji"
-  url "https://github.com/dbmrq/demoji.git", tag: "v0.1.0"
+  url "https://github.com/dbmrq/demoji.git", tag: "v0.1.1"
   license "MIT"
 
   depends_on "rust" => :build
