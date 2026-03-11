@@ -2,7 +2,7 @@
 # frozen_string_literal: true
 
 class Paperboat < Formula
-  desc "AI agents can be used to accomplish nearly anything"
+  desc "AI Agent Orchestrator"
   homepage "https://github.com/dbmrq/paperboat"
   version "0.2.0"
   license "MIT"
