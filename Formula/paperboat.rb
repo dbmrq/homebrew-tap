@@ -4,21 +4,21 @@
 class Paperboat < Formula
   desc "AI agents can be used to accomplish nearly anything"
   homepage "https://github.com/dbmrq/paperboat"
-  version "0.1.0"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/dbmrq/paperboat/releases/download/v0.1.0/paperboat_0.1.0_Darwin_x86_64.tar.gz"
-      sha256 "3793cbdadbe0dcff6cd180a249fc0d7ec46563a73dfd8c10a0cc978f24bd00cc"
+      url "https://github.com/dbmrq/paperboat/releases/download/v0.2.0/paperboat_0.2.0_Darwin_x86_64.tar.gz"
+      sha256 "dd7267b693b7f27a2efba30d0df8d14b7134a646ae6be9fa57abdaab01ecbee7"
 
       def install
         bin.install "paperboat"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/dbmrq/paperboat/releases/download/v0.1.0/paperboat_0.1.0_Darwin_arm64.tar.gz"
-      sha256 "71c48fa7fee7e8d8f1c29bbf330c1a8c81c5d87d76163a944aeb6f41e889932d"
+      url "https://github.com/dbmrq/paperboat/releases/download/v0.2.0/paperboat_0.2.0_Darwin_arm64.tar.gz"
+      sha256 "61a0df2edea9d691916255485455b698aaa91aff71182bb38bd914d4e84cb20b"
 
       def install
         bin.install "paperboat"
@@ -28,15 +28,15 @@ class Paperboat < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/dbmrq/paperboat/releases/download/v0.1.0/paperboat_0.1.0_Linux_x86_64.tar.gz"
-      sha256 "9b3f070a3282f54fdd89c94ed3e9d9ef81550ff11ae82785b26125996af7769b"
+      url "https://github.com/dbmrq/paperboat/releases/download/v0.2.0/paperboat_0.2.0_Linux_x86_64.tar.gz"
+      sha256 "b7f5e5e56637e98abcbf06b930a0acdd2dc0819239400b924aad24fa9f996d0f"
       def install
         bin.install "paperboat"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/dbmrq/paperboat/releases/download/v0.1.0/paperboat_0.1.0_Linux_arm64.tar.gz"
-      sha256 "8aa07c7f5ae9bb69aec68cf47ab220389a7ca394f2ee717746016f47f186a615"
+      url "https://github.com/dbmrq/paperboat/releases/download/v0.2.0/paperboat_0.2.0_Linux_arm64.tar.gz"
+      sha256 "b4966f0e118c1443084204780e071478fab70fa319c5322ee954e98f63ad2edf"
       def install
         bin.install "paperboat"
       end
