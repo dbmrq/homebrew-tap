@@ -32,3 +32,9 @@ brew install dbmrq/tap/demoji
 brew update
 brew upgrade
 ```
+
+## Maintenance
+
+`poppy-ai` updates itself from PyPI every day (and on demand with
+`gh workflow run update-poppy-ai.yml --repo dbmrq/homebrew-tap`); the other
+formulae are updated by hand.
