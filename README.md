@@ -8,25 +8,27 @@ This is a [Homebrew](https://brew.sh) tap for my personal tools.
 brew tap dbmrq/tap
 ```
 
-## Available Formulae
+## Available formulae
 
-### Ralph
+### poppy-ai
 
-AI-powered task automation tool.
+Turn coding-agent session history into reviewed skills, memories, and rules.
 
 ```bash
-brew install dbmrq/tap/ralph
+brew install dbmrq/tap/poppy-ai
 ```
 
-Or install directly:
+### demoji
+
+A fast CLI tool to remove or replace emoji characters from text files.
 
 ```bash
-brew install dbmrq/tap/ralph
+brew install dbmrq/tap/demoji
 ```
 
 ## Updating
 
 ```bash
 brew update
-brew upgrade ralph
+brew upgrade
 ```
