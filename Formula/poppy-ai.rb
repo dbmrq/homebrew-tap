@@ -3,8 +3,8 @@ class PoppyAi < Formula
 
   desc "Turn coding-agent session history into reviewed skills, memories, and rules"
   homepage "https://github.com/dbmrq/poppy"
-  url "https://files.pythonhosted.org/packages/47/d1/f9ba627bb817f724e7b178f1af4129e719c5965299e31f5c4926b820ea35/poppy_ai-0.1.0.tar.gz"
-  sha256 "698beb84a5f1992e7c95f224e440cc035cfc9b4c7c5f5808bd33f1783b923475"
+  url "https://files.pythonhosted.org/packages/91/60/ae62e7478d9cd74462fd708af92a909d7b2c5b2a108b996cc0fa8439aa5a/poppy_ai-0.2.0.tar.gz"
+  sha256 "009db2595656888386f100e3e67996456f4b99fdc894ee2e8f0d7b5bebdfa110"
   license "MIT"
 
   depends_on "python@3.13"
